@@ -1,54 +1,17 @@
-# CodeIgniter 4 Framework
+# Laboratory 3 ITC-311
 
-## What is CodeIgniter?
+## Application Development and Emerging Technologies
+Ecommerce Output:
+![received_223654504032290](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/54abdf67-7b76-4c61-976b-4ce870fe9e1d)
+![received_1036316234083825](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/7fb53eb4-3c2f-420c-8efe-9f82d10d296a)
+![received_647279687516783](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/34b14fcd-0c28-4941-ae6b-e549c75955a2)
+![received_784031686807553](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/d5f0f5a8-5a1a-42f2-95df-21f32f5a0a39)
+![received_1790439578038507](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/7be56efb-55f9-4a96-8558-8560f98c4eac)
+![received_701662871828958](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/981e15dd-21f5-4ef0-a1fc-3f6143683a8f)
+![received_1031974591489385](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/e01edeed-bbc0-42ed-b74f-51d9b9d79a07)
+![received_664878092080608](https://github.com/K1ngJJ/Lab3_Ecommerce/assets/144676325/6d95b45f-8ebc-41ca-bec2-212085d726ab)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Name: Pacheco, King JayJay A.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Section: 3-F1
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
