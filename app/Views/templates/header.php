@@ -20,12 +20,12 @@
         <?php if (session()->get('isLoggedIn')): ?>
             <ul class="navbar-nav mr-auto">
             <li class="nav-item <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>">
-                <a class="nav-link"  href="/dashboard">Dashboard</a>
+                <a class="nav-link"  href="/dashboard"></a>
             </li>
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
+                <a class="nav-link" href="/logout"></a>
             </li>
             </ul>
             <?php endif; ?>
